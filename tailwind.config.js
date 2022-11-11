@@ -19,29 +19,29 @@ module.exports = {
       },
     },
     colors: {
-      primary: {
+      'primary': {
         default: "#007FAB",
         dark: "#003A4F",
         tint: "#003A4F",
       },
-      secondary: {
+      'secondary': {
         default: "#FFC37D",
         dark: "#FFC37D",
         tint: "#FFC37D",
       },
-      highlight: {
+      'highlight': {
         default: "#FF5136",
         dark: "#CD331A",
         tint: "#FFB5A4",
       },
-      black: {
+      'black': {
         default: "#000000",
         20: "#333333",
         40: "#666666",
         60: "#999999",
         80: "#CCCCCC",
       },
-      white: "#FFFFFF",
+      'white': "#FFFFFF",
     },
     content: {
       start: "url('/main/start.png')",
@@ -59,6 +59,9 @@ module.exports = {
         bg_talking_c: "url('/bg/bg_talking_c.png')",
         bg_talking_l: "url('/bg/bg_talking_l.png')",
         bg_talking_r: "url('/bg/bg_talking_r.png')",
+      },
+      backgroundSize: {
+        'height-72': "100% 72px",
       },
     },
   },
