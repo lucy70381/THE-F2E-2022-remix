@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-secondary-default leading-[1.6] lg:text-lg overflow-x-hidden;
+    @apply bg-secondary leading-[1.6] lg:text-lg overflow-x-hidden;
   }
 
   h1 {
@@ -20,7 +20,7 @@
   }
 
   h4 {
-    @apply text-xl font-bold leading-[1.4] lg:text-[32px];
+    @apply text-xl font-bold leading-[1.4] lg:text-[28px];
   }
 
   h5 {

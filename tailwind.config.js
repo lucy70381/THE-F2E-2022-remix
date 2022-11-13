@@ -19,29 +19,29 @@ module.exports = {
       },
     },
     colors: {
-      'primary': {
-        default: "#007FAB",
+      primary: {
+        DEFAULT: "#007FAB",
         dark: "#003A4F",
-        tint: "#003A4F",
+        tint: "#B0D2DE",
       },
-      'secondary': {
-        default: "#FFC37D",
-        dark: "#FFC37D",
-        tint: "#FFC37D",
+      secondary: {
+        DEFAULT: "#FFC37D",
+        dark: "#A46039",
+        tint: "#FFE2A9",
       },
-      'highlight': {
-        default: "#FF5136",
+      highlight: {
+        DEFAULT: "#FF5136",
         dark: "#CD331A",
         tint: "#FFB5A4",
       },
-      'black': {
-        default: "#000000",
+      black: {
+        DEFAULT: "#000000",
         20: "#333333",
         40: "#666666",
         60: "#999999",
         80: "#CCCCCC",
       },
-      'white': "#FFFFFF",
+      white: "#FFFFFF",
     },
     content: {
       start: "url('/main/start.png')",
@@ -51,6 +51,8 @@ module.exports = {
         logo: "url('/logo/logo.png')",
         logo_text: "url('/logo/logo_text.png')",
         start: "url('/main/start.png')",
+        finish: "url('/main/finish.png')",
+        finish_1: "url('/main/finish_1.png')",
         road: "url('/main/road.png')",
         character_ui: "url('/character_ui/character_ui.gif')",
         character_f2e: "url('/character_ui/character_f2e.gif')",
@@ -60,10 +62,14 @@ module.exports = {
         bg_talking_l: "url('/bg/bg_talking_l.png')",
         bg_talking_r: "url('/bg/bg_talking_r.png')",
       },
-      backgroundSize: {
-        'height-72': "100% 72px",
-      },
     },
   },
+  safelist: [
+    "bg-[length:875px_151px]",
+    "bg-[length:736px_151px]",
+    "bg-[length:940px_151px]",
+    "bg-[length:627px_151px]",
+    "bg-[length:466px_151px]",
+  ],
   plugins: [],
 };
