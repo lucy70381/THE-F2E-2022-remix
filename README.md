@@ -1,41 +1,37 @@
-# Welcome to Remix!
+# 2022 F2E 4th Week-1 | 互動式網站設計
 
-- [Remix Docs](https://remix.run/docs)
+## 專案架構
+```
+├── app
+│   ├── components
+│   ├── containers
+│   ├── routes
+│   ├── styles
+│   └── utils
+├── styles
+│   └── app.css
+└── public
+```
+## 使用技術
+- React
+- Remix
+- Tailwind
+- TypeScript
 
-## Fly Setup
+## 使用套件
+- GSAP
+- ESlint
+- Prettier
 
-1. [Install `flyctl`](https://fly.io/docs/getting-started/installing-flyctl/)
-
-2. Sign up and log in to Fly
-
+### Project setup
 ```sh
-flyctl auth signup
+npm install
 ```
 
-3. Setup Fly. It might ask if you want to deploy, say no since you haven't built the app yet.
-
-```sh
-flyctl launch
-```
-
-## Development
-
-From your terminal:
-
+### Development
 ```sh
 npm run dev
 ```
 
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-If you've followed the setup instructions already, all you need to do is run this:
-
-```sh
-npm run deploy
-```
-
-You can run `flyctl info` to get the url and ip address of your server.
-
-Check out the [fly docs](https://fly.io/docs/getting-started/node/) for more information.
+### 設計稿提供
+[EG](https://2022.thef2e.com/users/12061549261454740203)
