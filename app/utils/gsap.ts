@@ -24,7 +24,7 @@ export const Gsap = () => {
       pin: true,
       pinSpacing: false,
       scrub: true,
-      markers: true,
+      // markers: true,
       invalidateOnRefresh: true,
       onEnter: () => {
         gsap.to("#startSection", { y: 0, duration: 0 });
@@ -58,7 +58,7 @@ export const Gsap = () => {
       pin: !isMobile,
       pinSpacing: isMobile,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
       onEnter: () => {
         isMobile = window.matchMedia("(max-width: 768px)").matches;
       },
@@ -87,7 +87,7 @@ export const Gsap = () => {
       pin: !isMobile,
       pinSpacing: isMobile,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
     },
   });
 
@@ -116,7 +116,7 @@ export const Gsap = () => {
       end: () => `center top`,
       pinSpacing: isMobile,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
     },
   });
 
@@ -145,7 +145,7 @@ export const Gsap = () => {
       pin: !isMobile,
       pinSpacing: isMobile,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
     },
   });
 
@@ -174,7 +174,7 @@ export const Gsap = () => {
       pin: true,
       pinSpacing: false,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
     },
   });
 
@@ -195,7 +195,7 @@ export const Gsap = () => {
       pin: !isMobile,
       pinSpacing: isMobile,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
     },
   });
 
@@ -223,7 +223,7 @@ export const Gsap = () => {
       pin: !isMobile,
       pinSpacing: isMobile,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
     },
   });
 
@@ -255,7 +255,7 @@ export const Gsap = () => {
       pin: true,
       pinSpacing: false,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
     },
   });
 
@@ -300,7 +300,7 @@ export const Gsap = () => {
       pin: true,
       pinSpacing: false,
       scrub: 0.5,
-      markers: true,
+      // markers: true,
     },
   });
 
