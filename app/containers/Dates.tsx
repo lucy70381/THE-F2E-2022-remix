@@ -2,7 +2,7 @@ import JoinButton from "~/components/JoinButton";
 
 const Dates = () => (
   <section id="datesSection" className="container md:h-screen">
-    <div className="relative mt-20 grid place-items-center items-start gap-y-10 md:flex md:justify-between">
+    <div className="relative mt-20 grid place-items-center items-start gap-y-4 md:flex md:justify-between">
       {[
         {
           stepName: "SIGN UP",

@@ -20,7 +20,7 @@ const Sponsors = () => (
               key={company}
             >
               <img
-                className="mb-3 rounded-[60px] border-4 border-primary md:rounded-[24px] lg:rounded-[60px] lg:border-8"
+                className="mb-3 w-2/5 md:w-full bg-white overflow-clip border-4 border-primary rounded-[24px] lg:border-8"
                 src={`./main/logo_${logoName}.png`}
                 alt={logoName}
               />
@@ -36,13 +36,13 @@ const Sponsors = () => (
     <div className="container fixed -bottom-4 left-1/2 -z-10 hidden -translate-x-1/2 justify-between md:flex">
       <img
         id="decorate_04"
-        className="w-[331px] object-contain"
+        className="w-[331px] object-contain opacity-0"
         src="./bg/bg_decorate_04.png"
         alt="bg_decorate_04"
       />
       <img
         id="decorate_08"
-        className="w-[342px] object-contain"
+        className="w-[342px] object-contain opacity-0"
         src="./bg/bg_decorate_08.png"
         alt="bg_decorate_08"
       />

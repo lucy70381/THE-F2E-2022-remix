@@ -3,12 +3,14 @@ import JoinButton from "~/components/JoinButton";
 const Footer = () => (
   <>
     <img
-      className="fixed bottom-8 left-5 w-[224px] opacity-0 md:opacity-100"
+      id="map"
+      className="fixed bottom-8 left-5 hidden w-[224px] md:block"
       src="./main/map.svg"
       alt="map"
     />
     <img
-      className="fixed bottom-8 left-5 hidden w-[224px]"
+      id="map_finish"
+      className="fixed bottom-8 left-5 hidden w-[224px] opacity-0 md:block"
       src="./main/map_finish.svg"
       alt="map_finish"
     />
@@ -18,9 +20,10 @@ const Footer = () => (
       src="./main/map_now.gif"
       alt="map_now"
     />
-    <div className="fixed right-5 bottom-4 opacity-0 md:opacity-100">
+    <a href="https://2022.thef2e.com" className="fixed right-5 bottom-4 opacity-0 md:opacity-100">
+      <p className="text-primary text-center font-bold">JOIN</p>
       <JoinButton />
-    </div>
+    </a>
     <img
       src="./main/road.png"
       id="road"

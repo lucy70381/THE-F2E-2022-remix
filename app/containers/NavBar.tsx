@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className="fixed top-0 z-20 flex w-full items-center justify-center bg-secondary md:hidden">
           <a
             href="/"
-            className="mt-2 block aspect-[3/1] w-2/5 overflow-hidden whitespace-nowrap bg-logo_text bg-contain bg-no-repeat indent-[101%] md:mt-10 md:w-3/5 lg:hidden"
+            className="mt-2 block aspect-[3/1] w-2/5 overflow-hidden whitespace-nowrap bg-logo_text bg-contain bg-no-repeat indent-[101%] md:mt-10 md:w-3/5 md:hidden"
           >
             The F2E 4th
           </a>
@@ -18,12 +18,12 @@ const NavBar = () => {
           {openMenu && (
             <div className="grid place-content-start gap-y-10 px-4">
               {[
-                { name: "關卡資訊", iconName: "info" },
-                { name: "作品列表", iconName: "list" },
-                { name: "攻略資源", iconName: "strategy" },
-                { name: "求職專區", iconName: "job" },
-              ].map(({ name, iconName }) => (
-                <a href="/" className="" key={iconName}>
+                { name: "關卡資訊", iconName: "info", link: 'https://2022.thef2e.com/news' },
+                { name: "作品列表", iconName: "list", link: 'https://2022.thef2e.com/works' },
+                { name: "攻略資源", iconName: "strategy", link: 'https://hackmd.io/ofJD4K7iSI65V19zxC7d0w' },
+                { name: "求職專區", iconName: "job", link: 'https://2022.thef2e.com/jobs' },
+              ].map(({ name, iconName, link }) => (
+                <a href={link} key={iconName}>
                   <img
                     className="mx-auto mb-1 block h-[60px] w-[60px]"
                     src={`./ic/ic_menu_${iconName}.png`}

@@ -4,10 +4,10 @@ import SvgUsers from "../components/SvgUsers";
 const Start = () => (
   <section
     id="startSection"
-    className="h-screen bg-[length:75%_100vh] bg-center bg-no-repeat md:bg-start mt-[83px] md:mt-0"
+    className="h-screen w-full pt-[83px] md:pt-0"
   >
     <div className="container mx-auto">
-      {/* <div className="absolute top-0 left-1/2 h-screen w-3/4 -translate-x-1/2 bg-[length:100%_100vh] bg-no-repeat md:bg-start"></div> */}
+      <div className="-z-10 absolute top-0 left-1/2 h-screen w-3/4 -translate-x-1/2 bg-[length:100%_100vh] bg-no-repeat md:bg-start"></div>
 
       <div className="grid place-items-center">
         <a
@@ -32,10 +32,10 @@ const Start = () => (
           ].map(({ role, count }) => (
             <div className="mx-auto" key={role}>
               <h5 className="text-center text-primary">{role}</h5>
-              <div className="flex items-center justify-center rounded-full bg-primary py-1 px-5 md:px-7">
+              <a href="https://2022.thef2e.com/users" className="flex items-center justify-center rounded-full bg-primary py-1 px-5 md:px-7">
                 <SvgUsers width={20} height={20} color={"white"} />
                 <span className="highlight ml-2 block text-white">{count}</span>
-              </div>
+              </a>
             </div>
           ))}
         </div>

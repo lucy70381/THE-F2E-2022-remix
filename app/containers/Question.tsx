@@ -1,7 +1,7 @@
 const Question = () => (
   <section
     id="questionSection"
-    className="constainer grid place-content-center place-items-center md:h-screen"
+    className="constainer grid place-content-center place-items-center h-screen"
   >
     <h2 className="mb-[252px] whitespace-pre-wrap text-center text-highlight md:mb-0 md:whitespace-normal">
       {"區區修煉\n已經無法滿足了嗎？"}

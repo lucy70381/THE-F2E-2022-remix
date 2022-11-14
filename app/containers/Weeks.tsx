@@ -48,7 +48,7 @@ const Weeks = () => (
               </p>
             </div>
             <a
-              href="/"
+              href={`https://2022.thef2e.com/news/week${index + 1}`}
               className="rounded-full bg-secondary-dark px-6 py-1 text-white"
             >
               查看關卡細節
