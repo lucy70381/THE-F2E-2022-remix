@@ -20,7 +20,7 @@ const Footer = () => (
       src="./main/map_now.gif"
       alt="map_now"
     />
-    <a href="https://2022.thef2e.com" className="fixed right-5 bottom-4 opacity-0 md:opacity-100">
+    <a href="https://2022.thef2e.com" className="z-10 fixed right-5 bottom-4 opacity-0 md:opacity-100">
       <p className="text-primary text-center font-bold">JOIN</p>
       <JoinButton />
     </a>

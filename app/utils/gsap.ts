@@ -290,15 +290,13 @@ export const Gsap = () => {
       },
       "<"
     )
-    .to("#characters", { opacity: 0 }, ">")
+    .to("#characters", { scale:0.5, opacity: 0 }, ">")
     .to("#finishSection", { opacity: 0 }, "<");
 
   const signupScroll = gsap.timeline({
     scrollTrigger: {
       trigger: "#signupSection",
       end: () => `10% top`,
-      pin: true,
-      pinSpacing: false,
       scrub: 0.5,
       // markers: true,
     },
