@@ -19,6 +19,7 @@
 - Remix
 - Tailwind
 - TypeScript
+- RWD
 
 ## 使用套件
 - GSAP
